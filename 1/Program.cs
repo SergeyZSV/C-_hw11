@@ -8,7 +8,7 @@ FillArray();
 
 for (int i = 0; i < array.Length; i++)
 {
-   Console.Write(array[i] + " ");
+    Console.Write(array[i] + " ");
 }
 
 void FillArray()
@@ -16,6 +16,6 @@ void FillArray()
     Random rnd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = rnd.Next(n, m + 1);        
+        array[i] = rnd.Next(n, m + 1);
     }
 }

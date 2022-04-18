@@ -45,9 +45,9 @@ void AmountAndSum()
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if(matrix[i,j] > 5)
+            if (matrix[i, j] > 5)
             {
-                sum += matrix[i,j];
+                sum += matrix[i, j];
                 amount += 1;
             }
         }
